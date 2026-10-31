@@ -1,10 +1,11 @@
 package com.pluralsight;
 
 public class Dice {
-    public int roll(int minValue, int maxValue){
 
-        int randomNumber = (int) (Math.random() * (maxValue - minValue + 1)) + minValue;
+    public int roll() {
+        int minValue = 1;
+        int maxValue = 6;
 
-        return randomNumber;
+        return (int) (Math.random() * (maxValue - minValue + 1)) + minValue;
     }
 }

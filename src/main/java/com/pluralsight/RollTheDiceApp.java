@@ -5,10 +5,12 @@ public class RollTheDiceApp {
 
         Dice dice = new Dice();
 
-        int roll1 = dice.roll(1, 6);
-        System.out.println(roll1);
-        int roll2 = dice.roll(1, 6);
-        System.out.println(roll2);
+        int roll1 = dice.roll();
+        int roll2 = dice.roll();
+        int twoCounter = 0;
+        int fourCounter = 0;
+        int sixCounter = 0;
+        int sevenCounter = 0;
 
 
 
